@@ -1,0 +1,10 @@
+c:\users\gj\documents\visual studio 2010\Projects\DataMangement\DataMangement\bin\DataMangement.dll
+c:\users\gj\documents\visual studio 2010\Projects\DataMangement\DataMangement\bin\DataMangement.pdb
+c:\users\gj\documents\visual studio 2010\Projects\DataMangement\DataMangement\obj\Debug\ResolveAssemblyReference.cache
+c:\users\gj\documents\visual studio 2010\Projects\DataMangement\DataMangement\obj\Debug\DataMangement.dll
+c:\users\gj\documents\visual studio 2010\Projects\DataMangement\DataMangement\obj\Debug\DataMangement.pdb
+C:\DataMangement\DataMangement\bin\DataMangement.dll
+C:\DataMangement\DataMangement\bin\DataMangement.pdb
+C:\DataMangement\DataMangement\obj\Debug\ResolveAssemblyReference.cache
+C:\DataMangement\DataMangement\obj\Debug\DataMangement.dll
+C:\DataMangement\DataMangement\obj\Debug\DataMangement.pdb

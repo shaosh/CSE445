@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+	<xsd:element name="Books">
+		<xsd:complexType>
+			<xsd:sequence maxOccurs="unbounded">
+				<xsd:element name="Book" minOccurs="1" maxOccurs="unbounded" >
+					<xsd:complexType>										
+						<xsd:sequence>							
+							<xsd:element name="ISBN" type="xsd:string" minOccurs="1" maxOccurs="1"/> 
+							<xsd:element name="Title" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+							<xsd:element name="Author" minOccurs="1" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:all>
+										<xsd:element name="Name" minOccurs="1" maxOccurs="1">
+											<xsd:complexType>
+												<xsd:all>
+													<xsd:element name="First" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+													<xsd:element name="Last" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+												</xsd:all>
+											</xsd:complexType>										
+										</xsd:element>
+										<xsd:element name="Contact" minOccurs="1" maxOccurs="1">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+												</xsd:sequence>
+												<xsd:attribute name="Office" type="xsd:string" use="required"/>												
+											</xsd:complexType>										
+										</xsd:element>
+									</xsd:all>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Publisher" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+							<xsd:element name="Year" minOccurs="1" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:integer">
+											<xsd:attribute name="Edition" type ="xsd:integer" use="required"/>
+										</xsd:extension>
+									</xsd:simpleContent>         
+								</xsd:complexType>	
+							</xsd:element>
+						</xsd:sequence>
+						<xsd:attribute name="Cover" type="xsd:string" use="required"/>	 						
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+    </xsd:element>
+</xsd:schema>

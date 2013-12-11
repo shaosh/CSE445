@@ -1,0 +1,4 @@
+c:\users\xiaoyaoworm\documents\visual studio 2010\Projects\AllService_tryItPage\AllService_tryItPage\bin\AllService_tryItPage.dll
+c:\users\xiaoyaoworm\documents\visual studio 2010\Projects\AllService_tryItPage\AllService_tryItPage\bin\AllService_tryItPage.pdb
+c:\users\xiaoyaoworm\documents\visual studio 2010\Projects\AllService_tryItPage\AllService_tryItPage\obj\Debug\AllService_tryItPage.dll
+c:\users\xiaoyaoworm\documents\visual studio 2010\Projects\AllService_tryItPage\AllService_tryItPage\obj\Debug\AllService_tryItPage.pdb

@@ -1,0 +1,5 @@
+c:\users\gj\documents\visual studio 2010\Projects\stemservice\stemservice\obj\Debug\ResolveAssemblyReference.cache
+c:\users\gj\documents\visual studio 2010\Projects\stemservice\stemservice\bin\stemservice.dll
+c:\users\gj\documents\visual studio 2010\Projects\stemservice\stemservice\bin\stemservice.pdb
+c:\users\gj\documents\visual studio 2010\Projects\stemservice\stemservice\obj\Debug\stemservice.dll
+c:\users\gj\documents\visual studio 2010\Projects\stemservice\stemservice\obj\Debug\stemservice.pdb

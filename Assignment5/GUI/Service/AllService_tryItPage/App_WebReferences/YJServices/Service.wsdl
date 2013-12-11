@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/AllServices/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/AllServices/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/AllServices/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_findNearestStore_InputMessage">
+    <wsdl:part name="parameters" element="tns:findNearestStore" />
+  </wsdl:message>
+  <wsdl:message name="IService_findNearestStore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findNearestStoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_getDistance_InputMessage">
+    <wsdl:part name="parameters" element="tns:getDistance" />
+  </wsdl:message>
+  <wsdl:message name="IService_getDistance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getDistanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_WsHashOperations_InputMessage">
+    <wsdl:part name="parameters" element="tns:WsHashOperations" />
+  </wsdl:message>
+  <wsdl:message name="IService_WsHashOperations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WsHashOperationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_compressString_InputMessage">
+    <wsdl:part name="parameters" element="tns:compressString" />
+  </wsdl:message>
+  <wsdl:message name="IService_compressString_OutputMessage">
+    <wsdl:part name="parameters" element="tns:compressStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_stringMatching_InputMessage">
+    <wsdl:part name="parameters" element="tns:stringMatching" />
+  </wsdl:message>
+  <wsdl:message name="IService_stringMatching_OutputMessage">
+    <wsdl:part name="parameters" element="tns:stringMatchingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_bidirection_string_Convert_binary_InputMessage">
+    <wsdl:part name="parameters" element="tns:bidirection_string_Convert_binary" />
+  </wsdl:message>
+  <wsdl:message name="IService_bidirection_string_Convert_binary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:bidirection_string_Convert_binaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_CalulateSimiliarty_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalulateSimiliarty" />
+  </wsdl:message>
+  <wsdl:message name="IService_CalulateSimiliarty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalulateSimiliartyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetData" message="tns:IService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetDataResponse" message="tns:IService_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findNearestStore">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/findNearestStore" message="tns:IService_findNearestStore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/findNearestStoreResponse" message="tns:IService_findNearestStore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getDistance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/getDistance" message="tns:IService_getDistance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/getDistanceResponse" message="tns:IService_getDistance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WsHashOperations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/WsHashOperations" message="tns:IService_WsHashOperations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/WsHashOperationsResponse" message="tns:IService_WsHashOperations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="compressString">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/compressString" message="tns:IService_compressString_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/compressStringResponse" message="tns:IService_compressString_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="stringMatching">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/stringMatching" message="tns:IService_stringMatching_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/stringMatchingResponse" message="tns:IService_stringMatching_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="bidirection_string_Convert_binary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/bidirection_string_Convert_binary" message="tns:IService_bidirection_string_Convert_binary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/bidirection_string_Convert_binaryResponse" message="tns:IService_bidirection_string_Convert_binary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CalulateSimiliarty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/CalulateSimiliarty" message="tns:IService_CalulateSimiliarty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/CalulateSimiliartyResponse" message="tns:IService_CalulateSimiliarty_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findNearestStore">
+      <soap:operation soapAction="http://tempuri.org/IService/findNearestStore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDistance">
+      <soap:operation soapAction="http://tempuri.org/IService/getDistance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WsHashOperations">
+      <soap:operation soapAction="http://tempuri.org/IService/WsHashOperations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="compressString">
+      <soap:operation soapAction="http://tempuri.org/IService/compressString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="stringMatching">
+      <soap:operation soapAction="http://tempuri.org/IService/stringMatching" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="bidirection_string_Convert_binary">
+      <soap:operation soapAction="http://tempuri.org/IService/bidirection_string_Convert_binary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CalulateSimiliarty">
+      <soap:operation soapAction="http://tempuri.org/IService/CalulateSimiliarty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://localhost/AllServices/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

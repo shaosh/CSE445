@@ -1,0 +1,13 @@
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\bin\Debug\1-4.exe.config
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\bin\Debug\1-4.exe
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\bin\Debug\1-4.pdb
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\_1_4.MyWeatherStation.resources
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\_1_4.Properties.Resources.resources
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\1-4.exe
+D:\Documents\ASU\CS\CSE445 598\Assignment1\1-4\1-4\1-4\obj\x86\Debug\1-4.pdb
+D:\Documents\ASU\CS\CSE445 598\Assignment1\Final Submission\Assignment1\1-4\1-4\1-4\bin\Debug\1-4.exe.config
+D:\Documents\ASU\CS\CSE445 598\Assignment1\Final Submission\Assignment1\1-4\1-4\1-4\obj\x86\Debug\1-4.exe
+D:\Documents\ASU\CS\CSE445 598\Assignment1\Final Submission\Assignment1\1-4\1-4\1-4\obj\x86\Debug\1-4.pdb

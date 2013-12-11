@@ -1,0 +1,5 @@
+c:\users\yan hao\documents\visual studio 2010\Projects\Try_It_Test_Pages\Try_It_Test_Pages\bin\Try_It_Test_Pages.dll
+c:\users\yan hao\documents\visual studio 2010\Projects\Try_It_Test_Pages\Try_It_Test_Pages\bin\Try_It_Test_Pages.pdb
+c:\users\yan hao\documents\visual studio 2010\Projects\Try_It_Test_Pages\Try_It_Test_Pages\obj\Debug\ResolveAssemblyReference.cache
+c:\users\yan hao\documents\visual studio 2010\Projects\Try_It_Test_Pages\Try_It_Test_Pages\obj\Debug\Try_It_Test_Pages.dll
+c:\users\yan hao\documents\visual studio 2010\Projects\Try_It_Test_Pages\Try_It_Test_Pages\obj\Debug\Try_It_Test_Pages.pdb

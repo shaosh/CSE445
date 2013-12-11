@@ -1,0 +1,48 @@
+﻿body   
+{
+    width: 960px;
+    font-family: Cambria;
+}
+
+    #header
+    {
+        background: #A9BCF5;
+        padding: 30px;
+        font-weight: bold;
+
+        border: 4px black solid; 
+        border-bottom: 2px black solid;
+    }
+    
+    #entity
+    {
+        background: #BDBDBD; 
+        padding: 30px;
+        border: 4px black solid;
+        border-top: 2px black solid;        
+    }
+    
+    #loginform
+    {
+        height: 800px;
+        padding: 30px;
+        background: #BDBDBD; 
+        border: 4px black solid;
+        border-top: 2px black solid;        
+    }
+    
+    #links
+    {
+        padding-top: 30px; 
+    }
+    
+    
+    .page
+    {
+        padding-right: 50px;   
+    }
+
+    .servicediv
+    {
+        border: 1px dashed black;    
+    }

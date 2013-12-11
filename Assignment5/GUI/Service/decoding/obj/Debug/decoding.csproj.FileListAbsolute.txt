@@ -1,0 +1,5 @@
+C:\Users\gj\Documents\Visual Studio 2010\Projects\Encoding\decoding\bin\decoding.dll
+C:\Users\gj\Documents\Visual Studio 2010\Projects\Encoding\decoding\bin\decoding.pdb
+C:\Users\gj\Documents\Visual Studio 2010\Projects\Encoding\decoding\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gj\Documents\Visual Studio 2010\Projects\Encoding\decoding\obj\Debug\decoding.dll
+C:\Users\gj\Documents\Visual Studio 2010\Projects\Encoding\decoding\obj\Debug\decoding.pdb

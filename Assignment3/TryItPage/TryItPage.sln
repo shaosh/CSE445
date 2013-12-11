@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TryItPage", "D:\Documents\ASU\CS\CSE445 598\Assignment3\TryItPage\", "{533D600B-9F3B-4E9D-A7CC-90CAA4454432}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/TryItPage"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Documents\ASU\CS\CSE445 598\Assignment3\TryItPage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TryItPage\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TryItPage"
+		Release.AspNetCompiler.PhysicalPath = "D:\Documents\ASU\CS\CSE445 598\Assignment3\TryItPage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TryItPage\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53504"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{533D600B-9F3B-4E9D-A7CC-90CAA4454432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533D600B-9F3B-4E9D-A7CC-90CAA4454432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

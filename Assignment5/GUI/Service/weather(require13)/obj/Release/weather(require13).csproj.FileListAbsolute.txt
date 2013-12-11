@@ -1,0 +1,7 @@
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\bin\weather(require13).dll
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\bin\weather(require13).XmlSerializers.dll
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\bin\weather(require13).pdb
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\obj\Release\ResolveAssemblyReference.cache
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\obj\Release\weather(require13).dll
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\obj\Release\weather(require13).pdb
+c:\users\gj\documents\visual studio 2010\Projects\weather(require13)\weather(require13)\obj\Release\weather(require13).XmlSerializers.dll
